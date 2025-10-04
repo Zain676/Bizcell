@@ -157,7 +157,6 @@ form i {
 
 .feature-card:hover .feature-body h5 {
     color: #623fc4;
-
 }
 
 .feature-body {
@@ -192,8 +191,135 @@ form i {
 
 .text-muted {
     font-family: var(--primary-fontFamily);
-font-size: 16px;
-font-weight: 400;
-line-height: 28px;
-color: rgb(112, 112, 112);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: rgb(112, 112, 112);
 }
+
+
+/************* about us ******************/
+
+.about-us {
+    width: 100%;
+    margin: 2rem 0 0 0;
+    background-color: #F8F9FA;
+    padding: 6rem 0;
+
+}
+
+.images {
+    position: relative;
+}
+
+.images img {
+    border-radius: 10px;
+}
+
+#ab-img {
+    position: absolute;
+    bottom: -1.5rem;
+    right: -9rem;
+}
+
+.img2 i {
+    color: #764AF1;
+    position: absolute;
+    bottom: 5rem;
+    right: -3rem;
+    padding: 1.8rem 2.7rem 1.8rem 2rem;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.img2 i:hover {
+    cursor: pointer;
+}
+
+.about-right {
+    max-width: 45%;
+}
+
+
+.about-right span {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 12px;
+    color: rgb(118, 74, 241);
+    background-color: #F1F0F9;
+}
+
+.about-right h3 {
+    font-family: "DM Sans", sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 39.2px;
+    color: rgb(22, 28, 45);
+}
+
+.about-right p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: rgb(112, 112, 112);
+}
+
+.about-btn {
+    font-family: "DM Sans", sans-serif !important;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    line-height: 21px !important;
+    color: white !important;
+    background-color: #764AF1 !important;
+    transition: all 0.3s ease !important;
+
+}
+
+.about-btn:hover {
+    background-color: #521BED !important;
+}
+
+/************ CTA 1 ***************/
+
+
+.cta1 {
+    background-image: url(./assets/images/cta1.jpeg);
+    padding: 7rem 0;
+    background-size: cover;
+    position: relative;
+    color: black;
+    margin-bottom: 10rem;
+    z-index: 1;
+}
+
+.dark {
+    z-index: -1;
+    color: black;
+    opacity: 60%;
+}
+
+.section-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.section-title h4 {
+    font-family: "DM Sans", sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 39.2px;
+    color: rgb(255, 255, 255);
+}
+
+.cta1-btn a {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21px;
+    color: rgb(22, 28, 45);
+    transition: all 0.3s ease;
+}
+
+
