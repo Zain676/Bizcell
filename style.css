@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+body::selection {
+    background-color: #707070;
+    color: white;
+}
+
 /****** Root ******/
 
 :root {
@@ -288,7 +293,6 @@ form i {
     background-size: cover;
     position: relative;
     color: black;
-    margin-bottom: 10rem;
     z-index: 1;
 }
 
@@ -322,4 +326,52 @@ form i {
     transition: all 0.3s ease;
 }
 
+/**************** Services *******************/
+.services {
+    padding: 6.2rem 0;
+}
 
+.badge {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 12px;
+    color: rgb(118, 74, 241) !important;
+    background-color: #F1F0F9;
+}
+
+.service-p {
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: rgb(112, 112, 112);
+}
+
+.cards {
+    padding: 6.2rem 0;
+
+}
+
+.row1,
+.row2 {
+    justify-content: space-evenly;
+}
+
+.card {
+    width: 22rem;
+    padding: 1rem;
+    border: 2px dashed rgba(75, 75, 75, 0.103) !important;
+    transition: all 0.3s ease;
+    scale: 1;
+}
+
+.card i {
+    background-color: #F8F6FE;
+    padding: 1rem 1.2rem 1rem 1.2rem;
+    color: var(--primary-color);
+}
+
+.card:hover {
+    border: 2px dashed rgba(75, 75, 75, 0.288) !important;
+    scale: 1.02;
+}
