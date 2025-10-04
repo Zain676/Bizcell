@@ -375,3 +375,16 @@ form i {
     border: 2px dashed rgba(75, 75, 75, 0.288) !important;
     scale: 1.02;
 }
+
+.card-body p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: rgb(112, 112, 112);
+}
+.card-body a {
+    transition: all 0.3s ease;
+}
+.card-body a:hover {
+    color: var(--primary-color);
+}
