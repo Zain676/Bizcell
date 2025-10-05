@@ -398,7 +398,7 @@ form i {
     color: var(--primary-color);
 }
 
-/**************** Testimonials **********************/
+/**************** Testimonials ************/
 
 .testimonial-section {
     position: relative;
@@ -408,7 +408,7 @@ form i {
     overflow: hidden;
 }
 
-.testimonial-section .overlay {
+.testimonial-section .overlay1 {
     position: absolute;
     inset: 0;
     background: rgba(0, 0, 0, 0.6);
