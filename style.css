@@ -636,8 +636,9 @@ form i {
     font-weight: 600;
     transition: all 0.3s ease;
 }
+
 .overlay h4:hover {
-    color: var(--primary-color);
+    color: #9074df;
 }
 
 .overlay p {
@@ -648,6 +649,7 @@ form i {
 .social-icons {
     margin: 0 0 2rem 0;
 }
+
 .social-icons a {
     color: #fff;
     margin: 0 6px;
@@ -668,4 +670,102 @@ form i {
 .img:hover .overlay {
     bottom: 0;
     opacity: 1;
+}
+
+
+
+
+/************* Blogs ******************/
+
+.blogs {
+    padding: 4rem 0;
+}
+
+.blog-cards {
+    justify-content: space-evenly;
+    border: none;
+    /* border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease; */
+}
+
+.blog-cards .card {
+    width: 22rem;
+    max-width: 100%;
+    border: 1px solid rgba(105, 105, 105, 0.068);
+}
+
+.card-img img {
+    width: 20rem;
+    border-radius: 10px;
+    transition: transform 0.5s ease;
+}
+
+.blog-footer {
+    justify-content: space-between;
+}
+
+.blog-icon {
+    color: var(--primary-color);
+}
+
+.card-img {
+    position: relative;
+    overflow: hidden;
+    margin: 1rem;
+
+}
+
+
+/* .blog-card:hover .card-img img {
+    transform: scale(1.05);
+} */
+
+.card-img .shade {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgb(0, 0, 0), rgba(0, 0, 0, 0.1));
+    opacity: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 20px;
+    width: 20rem;
+    border-radius: 10px;
+    transition: opacity 0.4s ease;
+}
+
+/* Show shade on hover */
+.blog-card:hover .shade {
+    opacity: 1;
+}
+
+/* Tag badge */
+.shade .blog-badge {
+    font-size: 13px;
+    padding: 8px 12px;
+    border-radius: 6px;
+}
+
+.blog-badge{
+    background-color: var(--primary-color);
+    text-decoration: none;
+    font-size: 12px !important;
+    font-weight: 600;
+    line-height: 12px;
+    color: rgb(255, 255, 255);
+}
+
+/* Read More button */
+.shade .read-btn {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 15px;
+    transition: all 0.3s ease;
+}
+
+.shade .read-btn:hover {
+    color: #9379db;
 }
