@@ -14,7 +14,7 @@
 
     let timer = setInterval(next, interval);
 
-    // optional: pause on hover
     slider.addEventListener('mouseenter', ()=> clearInterval(timer));
     slider.addEventListener('mouseleave', ()=> timer = setInterval(next, interval));
   })();
+  
